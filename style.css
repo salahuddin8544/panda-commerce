@@ -1,5 +1,6 @@
 .carousel-bg{
     background-color:#fceae8;
+    border-radius: 9px;
 }
 .container{
     margin-bottom: 100px;
@@ -17,4 +18,36 @@
     border-radius:9px;
     cursor: pointer;
     padding:9px 25px;
+}
+.cat1, .cat2, .cat3{
+    padding:10px 30px;
+    border-radius: 10px;
+}
+.cat1{
+    background-color: chartreuse;
+}
+.cat2{
+    background-color: darkmagenta;
+}
+.cat3{
+    background-color: dodgerblue;
+}
+.categories  h1{
+    color: #fff;
+}
+.categories img{
+    width:100px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+#subscrive{
+    height: 300px;
+}
+#subscrive h6{
+    color: gray;
+}
+footer{
+    text-align: center;
 }
